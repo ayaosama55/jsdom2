@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+/* container css */
+.container{
+    margin:50px auto;
+    width: 400px;
+    text-align: center;
+    background-color: orange;
+    padding: 40px 5px;
+}
+
+/* head1 css */
+#lol-cat{
+    font-family: 'Booter - Five Five','Copperplate', 'Papyrus', 'fantasy';
+    font-size: 45px;
+    margin-bottom: 0;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+/* css of first pragraph in page and to each text in times div side the selector and copy right text */
+.text-format{
+    font-family: 'Arial Black', 'Bookman Old Style', 'Bahnschrift SemiBold';
+    text-transform: uppercase;
+    
+}
+.container p:first-of-type{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+/* clock format */
+#clock{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.time-content{
+    font-size: 13px;
+    padding: 5px 7px 0;
+    display: inline-block;
+}
+
+/* image format */
+#case-images{
+margin:10px 0 35px;
+}
+
+/* select format */
+.selector{
+    padding:5px;
+    margin: 5px;
+}
+
+/* sumbit button format */
+#btn{
+    display: inline-block;
+    margin: 30px 0 0;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* copy right css */
+#copy-right{
+    font-size: 10px;
+}
